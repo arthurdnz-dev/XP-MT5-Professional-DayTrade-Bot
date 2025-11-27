@@ -3,10 +3,10 @@ import MetaTrader5 as mt5
 import time
 
 # ⚠️ SUBSTITUA ESTES DADOS PELOS SEUS DADOS EXATOS! ⚠️
-MT5_LOGIN = 18901042
-MT5_PASSWORD = "k6NugHB@"
-MT5_SERVER = "XP-DEMO" 
-MT5_PATH = r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MetaTrader 5 Terminal" # Ajuste se necessário
+MT5_LOGIN = xxxxxxx
+MT5_PASSWORD = "xxxxxxx"
+MT5_SERVER = "xxxxxx" 
+MT5_PATH = r"xxxxxxxxx" # Ajuste se necessário
 
 print(f"--- Tentando Inicializar e Logar no MT5 ({MT5_LOGIN}@{MT5_SERVER}) ---")
 
