@@ -1,0 +1,15 @@
+2025-11-27 00:04:58 | INFO | XP_MT5_BOT | --- INICIANDO TESTE DE CONEXÃO MT5 ---
+2025-11-27 00:04:58 | ERROR | XP_MT5_BOT | mt5.initialize() falhou, erro: (-6, 'Terminal: Authorization failed')
+2025-11-27 00:04:58 | ERROR | XP_MT5_BOT | TESTE FALHOU: Falha ao conectar ao MetaTrader 5.
+2025-11-27 00:17:07 | INFO | XP_MT5_BOT | --- INICIANDO TESTE DE CONEXÃO MT5 ---
+2025-11-27 00:17:07 | ERROR | XP_MT5_BOT | mt5.initialize() falhou, erro: (-6, 'Terminal: Authorization failed')
+2025-11-27 00:17:07 | ERROR | XP_MT5_BOT | TESTE FALHOU: Falha ao conectar ao MetaTrader 5.
+2025-11-27 00:17:19 | INFO | XP_MT5_BOT | --- INICIANDO TESTE DE CONEXÃO MT5 ---
+2025-11-27 00:17:19 | ERROR | XP_MT5_BOT | mt5.initialize() falhou, erro: (-6, 'Terminal: Authorization failed')
+2025-11-27 00:17:19 | ERROR | XP_MT5_BOT | TESTE FALHOU: Falha ao conectar ao MetaTrader 5.
+2025-11-27 00:37:59 | INFO | XP_MT5_BOT | --- INICIANDO TESTE DE CONEXÃO MT5 ---
+2025-11-27 00:37:59 | ERROR | XP_MT5_BOT | mt5.initialize() falhou, erro: (-6, 'Terminal: Authorization failed')
+2025-11-27 00:37:59 | ERROR | XP_MT5_BOT | TESTE FALHOU: Falha ao conectar ao MetaTrader 5.
+2025-11-27 00:40:50 | INFO | XP_MT5_BOT | --- INICIANDO TESTE DE CONEXÃO MT5 ---
+2025-11-27 00:40:50 | ERROR | XP_MT5_BOT | mt5.initialize() falhou, erro: (-6, 'Terminal: Authorization failed')
+2025-11-27 00:40:50 | ERROR | XP_MT5_BOT | TESTE FALHOU: Falha ao conectar ao MetaTrader 5.

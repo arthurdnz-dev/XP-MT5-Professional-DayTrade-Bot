@@ -1,0 +1,31 @@
+GLOBAL:
+  MAGIC_NUMBER: 20250001           
+  SYMBOL: VALE5                  
+  TIMEFRAME: MT5.TIMEFRAME_M5      
+  DEVIATION: 10                    
+  LIVE_TRADING: False              
+  LOG_LEVEL: INFO                  
+
+RISK:
+  MAX_DAILY_LOSS_PERCENT: 2.0      
+  MAX_TRADE_LOSS_PERCENT: 0.5      
+  MAX_CONSECUTIVE_LOSSES: 3        
+  FIXED_RISK_PER_TRADE_RS: 50.0    # Position Sizing
+  MIN_RR_RATIO: 1.5                
+  ATR_PERIOD: 14                   
+  ATR_MULTIPLIER: 2.0              
+
+SCHEDULE:
+  START_HOUR: 10                   
+  END_HOUR: 17                     
+  NEWS_BLOCK_HOURS_UTC_3:          
+    - 10.5  
+    - 11.5  
+
+FILTERS:
+  TREND_CONFIRMATION_COUNT: 3      
+  RSI_THRESHOLD_LOW: 40
+  RSI_THRESHOLD_HIGH: 60
+  MACD_ZERO_CROSS_CONFIRMATION: True
+  VOLATILITY_MAX_ATR_VALUE: 300    
+  LIQUIDITY_MIN_VOLUME_CANDLES: 2000
