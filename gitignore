@@ -1,0 +1,11 @@
+# Arquivo: .gitignore
+# Arquivos e pastas ignoradas pelo Git
+
+# Arquivo de credenciais (NÃO DEVE SER PUBLICADO!)
+.env
+
+# Pastas e arquivos gerados pelo Python/Sistema
+__pycache__/
+*.pyc
+logs/
+.DS_Store

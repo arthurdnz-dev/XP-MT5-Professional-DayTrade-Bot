@@ -5,7 +5,6 @@ from utils.config import CONFIG
 from utils.logger import logger
 import time
 import pandas as pd
-from typing import List, Dict
 
 class MT5Connector:
     """Gerencia a conexão de baixo nível com o terminal MetaTrader 5."""
@@ -19,15 +18,14 @@ class MT5Connector:
         self.deviation = CONFIG.get('GLOBAL.DEVIATION')
 
     def connect(self, retry=3) -> bool:
-        """Tenta inicializar e logar no MT5 com retentativas, forçando o caminho."""
+        """Tenta inicializar e logar no MT5 com retentativas, forçando o caminho da XP."""
         
-        # ⚠️ AJUSTE MANUALMENTE ESTE CAMINHO SE O TESTE FALHAR.
-        # Este é um caminho comum de instalação do MT5 da XP.
+        # ⚠️ Caminho comum da XP. Se falhar, você deve ajustar este valor manualmente.
         path_to_mt5 = r"C:\Program Files\MetaTrader 5 XP Investimentos\terminal64.exe" 
         
         # 1. Tenta inicializar usando o caminho específico
         if not mt5.initialize(path=path_to_mt5):
-            # 2. Se falhar, tenta o initialize padrão como fallback
+            # 2. Se falhar, tenta o initialize padrão (se o terminal já estiver aberto)
             if not mt5.initialize():
                 logger.error(f"mt5.initialize() falhou, erro: {mt5.last_error()}")
                 return False
@@ -35,11 +33,11 @@ class MT5Connector:
         for i in range(retry):
             authorized = mt5.login(self.login, self.password, self.server)
             if authorized:
-                logger.info(f"Conexão MT5 estabelecida. Conta: {self.login}")
+                logger.info(f"Conexão MT5 estabelecida. Conta: {self.login} no servidor {self.server}")
                 return True
             
-            logger.warning(f"Tentativa {i+1} de Login falhou. Erro: {mt5.last_error()}. Verifique o .env.")
-            mt5.shutdown() # Desliga para limpar o estado e tenta de novo
+            logger.warning(f"Tentativa {i+1} de Login falhou (Erro -6). Verifique o .env e se o terminal da XP está aberto. Erro: {mt5.last_error()}.")
+            mt5.shutdown() 
             time.sleep(5)
             # Re-inicializa para a próxima tentativa
             mt5.initialize(path=path_to_mt5) 
@@ -51,12 +49,9 @@ class MT5Connector:
     def check_connection(self) -> bool:
         """Verifica se a conexão está ativa e com o login correto."""
         try:
-            terminal_info = mt5.terminal_info()
             account_info = mt5.account_info()
-
-            if terminal_info is None or account_info is None:
+            if account_info is None:
                 return False
-            # Verifica se o login no terminal é o mesmo configurado
             if account_info.login != self.login:
                 logger.error("Conta logada no MT5 não corresponde ao login configurado.")
                 return False

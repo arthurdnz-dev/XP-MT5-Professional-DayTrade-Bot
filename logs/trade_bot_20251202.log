@@ -1,0 +1,6 @@
+2025-12-02 10:55:50 | INFO | XP_MT5_BOT | --- INICIANDO TESTE DE CONEXÃO MT5 ---
+2025-12-02 10:56:57 | WARNING | XP_MT5_BOT | Tentativa 1 de Login falhou (Erro -6). Verifique o .env e se o terminal da XP está aberto. Erro: (-10005, 'IPC timeout').
+2025-12-02 10:57:02 | WARNING | XP_MT5_BOT | Tentativa 2 de Login falhou (Erro -6). Verifique o .env e se o terminal da XP está aberto. Erro: (-10004, 'No IPC connection').
+2025-12-02 10:57:07 | WARNING | XP_MT5_BOT | Tentativa 3 de Login falhou (Erro -6). Verifique o .env e se o terminal da XP está aberto. Erro: (-10004, 'No IPC connection').
+2025-12-02 10:57:12 | CRITICAL | XP_MT5_BOT | Falha total de login após 3 tentativas. Abortando.
+2025-12-02 10:57:12 | ERROR | XP_MT5_BOT | TESTE FALHOU: Falha ao conectar ao MetaTrader 5.
