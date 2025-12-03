@@ -4,3 +4,39 @@
 2025-12-02 10:57:07 | WARNING | XP_MT5_BOT | Tentativa 3 de Login falhou (Erro -6). Verifique o .env e se o terminal da XP está aberto. Erro: (-10004, 'No IPC connection').
 2025-12-02 10:57:12 | CRITICAL | XP_MT5_BOT | Falha total de login após 3 tentativas. Abortando.
 2025-12-02 10:57:12 | ERROR | XP_MT5_BOT | TESTE FALHOU: Falha ao conectar ao MetaTrader 5.
+2025-12-02 11:36:24 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado. Risco Máximo: R$ 10.00
+2025-12-02 11:36:24 | WARNING | XP_MT5_BOT | Volume calculado é zero (SL muito grande ou MAX_RISK pequeno). SL: 100 pontos. Abortando cálculo de volume.
+2025-12-02 11:36:24 | INFO | XP_MT5_BOT | SL: 20 pontos. Risco por contrato: R$ 6.00. Volume calculado: 2 contrato(s).
+2025-12-02 11:36:24 | WARNING | XP_MT5_BOT | Volume calculado é zero (SL muito grande ou MAX_RISK pequeno). SL: 250 pontos. Abortando cálculo de volume.
+2025-12-02 11:36:24 | WARNING | XP_MT5_BOT | Volume calculado é zero (SL muito grande ou MAX_RISK pequeno). SL: 500 pontos. Abortando cálculo de volume.
+2025-12-02 11:39:00 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado. Risco Máximo: R$ 10.00
+2025-12-02 11:39:00 | WARNING | XP_MT5_BOT | Volume calculado é zero (SL muito grande ou MAX_RISK pequeno). SL: 100 pontos. Abortando cálculo de volume.
+2025-12-02 11:39:00 | INFO | XP_MT5_BOT | SL: 20 pontos. Risco por contrato: R$ 6.00. Volume calculado: 2 contrato(s).
+2025-12-02 11:39:00 | WARNING | XP_MT5_BOT | Volume calculado é zero (SL muito grande ou MAX_RISK pequeno). SL: 250 pontos. Abortando cálculo de volume.
+2025-12-02 11:39:00 | WARNING | XP_MT5_BOT | Volume calculado é zero (SL muito grande ou MAX_RISK pequeno). SL: 500 pontos. Abortando cálculo de volume.
+2025-12-02 22:53:32 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado. Risco Máximo: R$ 10.00
+2025-12-02 22:53:32 | WARNING | XP_MT5_BOT | Volume calculado é zero (SL muito grande ou MAX_RISK pequeno). SL: 150 pontos. Abortando cálculo de volume.
+2025-12-02 23:00:10 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado. Risco Máximo: R$ 10.00
+2025-12-02 23:00:10 | WARNING | XP_MT5_BOT | Volume calculado é zero (SL muito grande ou MAX_RISK pequeno). SL: 150 pontos. Abortando cálculo de volume.
+2025-12-02 23:03:38 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado. Risco Máximo: R$ 10.00
+2025-12-02 23:03:38 | WARNING | XP_MT5_BOT | Volume calculado é zero (SL muito grande ou MAX_RISK pequeno). SL: 150 pontos. Abortando cálculo de volume.
+2025-12-02 23:16:22 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado. Risco Máximo: R$ 10.00
+2025-12-02 23:16:22 | WARNING | XP_MT5_BOT | Volume calculado é zero (SL muito grande ou MAX_RISK pequeno). SL: 150 pontos. Abortando cálculo de volume.
+2025-12-02 23:22:11 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-02 23:22:11 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-02 23:22:11 | INFO | XP_MT5_BOT | SL: 20 pontos. Risco por contrato: R$ 6.00. Volume calculado: 2 contrato(s).
+2025-12-02 23:24:17 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-02 23:24:17 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-02 23:24:17 | INFO | XP_MT5_BOT | SL: 20 pontos. Risco por contrato: R$ 6.00. Volume calculado: 2 contrato(s).
+2025-12-02 23:26:32 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-02 23:26:32 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-02 23:26:32 | INFO | XP_MT5_BOT | SL: 20 pontos. Risco por contrato: R$ 6.00. Volume calculado: 2 contrato(s).
+2025-12-02 23:28:26 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-02 23:28:26 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-02 23:28:26 | INFO | XP_MT5_BOT | SL: 20 pontos. Risco por contrato: R$ 6.00. Volume calculado: 2 contrato(s).
+2025-12-02 23:30:35 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-02 23:30:35 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-02 23:30:35 | INFO | XP_MT5_BOT | SL: 20 pontos. Risco por contrato: R$ 6.00. Volume calculado: 2 contrato(s).
+2025-12-02 23:37:08 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-02 23:37:08 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-02 23:37:08 | INFO | XP_MT5_BOT | SL: 20 pontos. Risco por contrato: R$ 6.00. Volume calculado: 2 contrato(s).
