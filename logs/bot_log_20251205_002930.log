@@ -1,0 +1,12 @@
+2025-12-05 00:29:31,241 | INFO | XP_MT5_BOT | ================================================
+2025-12-05 00:29:31,241 | INFO | XP_MT5_BOT | INICIANDO ROBÔ DE DAY TRADE AUTÔNOMO
+2025-12-05 00:29:31,241 | INFO | XP_MT5_BOT | ================================================
+2025-12-05 00:29:31,242 | INFO | XP_MT5_BOT | --- INICIANDO BACKTEST E OTIMIZAÇÃO DE PARÂMETROS ---
+2025-12-05 00:29:31,443 | INFO | XP_MT5_BOT | Rodando teste 1/81: EMA 9/20, SL/TP 15/30
+2025-12-05 00:29:31,444 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 20.
+2025-12-05 00:29:31,449 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 200. Filtro de Volume: 5% acima da média.
+2025-12-05 00:29:31,449 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/20. SL/TP: 15/30.
+2025-12-05 00:29:31,453 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Tendência: Preço (10152.53) > EMA 200 (10071.35)
+2025-12-05 00:29:31,454 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1191) < Média + 5% (1387)
+2025-12-05 00:29:31,455 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Tendência: Preço (10153.48) > EMA 200 (10073.95); ❌ Volume: Atual (1067) < Média + 5% (1390)
+2025-12-05 00:29:31,456 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!

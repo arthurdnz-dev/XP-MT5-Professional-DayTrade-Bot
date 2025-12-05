@@ -1,67 +1,114 @@
 # Arquivo: main.py
 
-import time
-import MetaTrader5 as mt5
 from utils.config import CONFIG
-from utils.logger import logger
-from mt5.mt5_connector import MT5
+from utils.logger import setup_logger, logger
 from core.trade_executor import TradeExecutor
+from core.backtester import Backtester # ⚠️ NOVO IMPORT
+import random
+import pandas as pd
 
-KILL_SWITCH_ACTIVE = False
+# --- FUNÇÕES AUXILIARES ---
 
-def run_trading_bot():
-    """Loop principal que executa o robô em tempo real."""
-    global KILL_SWITCH_ACTIVE
+def generate_historical_data(bars: int = 500) -> pd.DataFrame:
+    """Gera dados de preço simulados com tendência para backtest."""
+    data = pd.DataFrame({
+        'time': pd.to_datetime(pd.Series(range(bars)) * 60, unit='s', origin='2025-01-01'),
+        'open': 10000.0,
+        'high': 10000.0,
+        'low': 10000.0,
+        'close': 10000.0,
+        'tick_volume': 1000,
+    })
     
-    # 1. Inicializa o ambiente e conecta ao MT5
-    if not MT5.connect():
-        logger.critical("Não foi possível conectar ao MT5. Encerrando o robô.")
+    # Simula uma leve tendência de alta com volatilidade e volume
+    price = 10000.0
+    for i in range(bars):
+        volatility = random.uniform(-10, 10)
+        trend = 0.5 * (i / bars) 
+        
+        price += volatility + trend
+        
+        data.loc[i, 'close'] = price
+        data.loc[i, 'open'] = price + random.uniform(-5, 5)
+        data.loc[i, 'high'] = max(data.loc[i, 'open'], data.loc[i, 'close']) + random.uniform(0, 5)
+        data.loc[i, 'low'] = min(data.loc[i, 'open'], data.loc[i, 'close']) - random.uniform(0, 5)
+        data.loc[i, 'tick_volume'] = 1000 + random.randint(0, 500)
+
+    data.set_index('time', inplace=True)
+    return data
+
+def run_backtest():
+    """Roda a otimização de parâmetros da estratégia."""
+    logger.info("--- INICIANDO BACKTEST E OTIMIZAÇÃO DE PARÂMETROS ---")
+    
+    historical_data = generate_historical_data(bars=500)
+    
+    # Parâmetros que queremos testar
+    ema_fast_list = [9, 10, 12]
+    ema_slow_list = [20, 26, 30]
+    sl_points_list = [15, 20, 30]
+    tp_points_list = [30, 40, 60]
+    
+    best_results = []
+    
+    total_runs = len(ema_fast_list) * len(ema_slow_list) * len(sl_points_list) * len(tp_points_list)
+    current_run = 0
+
+    for fast in ema_fast_list:
+        for slow in ema_slow_list:
+            if fast >= slow:
+                continue
+            for sl in sl_points_list:
+                for tp in tp_points_list:
+                    current_run += 1
+                    logger.info(f"Rodando teste {current_run}/{total_runs}: EMA {fast}/{slow}, SL/TP {sl}/{tp}")
+                    
+                    tester = Backtester(historical_data, sl_points=sl, tp_points=tp, ema_fast=fast, ema_slow=slow)
+                    metrics = tester.run()
+                    best_results.append(metrics)
+
+    # Encontrar a melhor configuração (usando Fator de Lucro como métrica principal)
+    df_results = pd.DataFrame([r for r in best_results if r['total_trades'] > 0])
+    
+    if df_results.empty:
+        logger.warning("Nenhum trade foi executado no backtest. Ajuste os filtros.")
         return
 
-    executor = TradeExecutor()
-    timeframe = getattr(mt5, CONFIG.get('GLOBAL.TIMEFRAME', 'MT5.TIMEFRAME_M5').split('.')[-1])
+    # Escolhe a melhor combinação (Ex: Maior Profit Factor)
+    best_run = df_results.sort_values(by='profit_factor', ascending=False).iloc[0]
+
+    logger.critical("================================================")
+    logger.critical("🏆 MELHOR CONFIGURAÇÃO ENCONTRADA NO BACKTEST 🏆")
+    logger.critical(f"EMA: {best_run['params']['EMA']} | SL/TP: {best_run['params']['SL/TP']}")
+    logger.critical(f"Lucro Líquido: R$ {best_run['net_profit']:.2f}")
+    logger.critical(f"Taxa de Acerto (Win Rate): {best_run['win_rate']:.2f}%")
+    logger.critical(f"Fator de Lucro (Profit Factor): {best_run['profit_factor']:.2f}")
+    logger.critical(f"Total de Trades: {best_run['total_trades']}")
+    logger.critical("================================================")
     
-    logger.info(f"Sistema inicializado. Ativo: {MT5.symbol}. Timeframe: {timeframe}")
+    # ⚠️ Em produção, você usaria o resultado aqui para atualizar o config.py antes de rodar o executor.
+    
+# --- EXECUÇÃO PRINCIPAL ---
 
-    while not KILL_SWITCH_ACTIVE:
-        try:
-            # 2. Verifica a conexão
-            if not MT5.check_connection():
-                logger.error("Conexão MT5 perdida. Tentando reconectar...")
-                if not MT5.connect(retry=1): # Tenta reconectar apenas uma vez
-                    logger.critical("Reconexão falhou. Kill-Switch ativado.")
-                    KILL_SWITCH_ACTIVE = True
-                    break
-            
-            # 3. Kill Switch e Horário de Operação
-            if executor.risk_manager.check_daily_stop() or executor.risk_manager.check_consecutive_stop():
-                KILL_SWITCH_ACTIVE = True
-                break
-
-            # 4. Obtenção de Dados
-            # Puxa dados suficientes para que os indicadores (Ex: 50 EMA) sejam calculados
-            rates_count = 100 
-            rates = MT5.get_market_data(timeframe, count=rates_count)
-            
-            if rates is None or rates.empty:
-                logger.warning("Dados não disponíveis ou vazios. Aguardando 10s.")
-                time.sleep(10)
-                continue
-            
-            # 5. Executar a Decisão de Trade e Gerenciamento de Posições
-            executor.manage_open_positions() # Primeiro, gerencia posições existentes (SL, TP, Trailing)
-            executor.decide_and_trade(rates) # Depois, decide se abre nova posição
-
-            # 6. Manter o loop rodando (ajustado para ser menos intrusivo)
-            logger.debug("Loop de verificação concluído. Aguardando 5 segundos.")
-            time.sleep(5) 
-
-        except Exception as e:
-            logger.error(f"Erro CRÍTICO no loop principal: {e}", exc_info=True)
-            KILL_SWITCH_ACTIVE = True # Erro crítico força o Kill-Switch
-            
-    MT5.shutdown()
-    logger.info("Robô de Day Trade Encerrado. Kill-Switch ativado.")
+# --- EXECUÇÃO PRINCIPAL ---
 
 if __name__ == "__main__":
-    run_trading_bot()
+    setup_logger()
+
+    logger.info("================================================")
+    logger.info("INICIANDO ROBÔ DE DAY TRADE AUTÔNOMO")
+    logger.info("================================================")
+    
+    # ⚠️ Agora, vamos para o mercado real/demo!
+    
+    # 1. RODAR BACKTEST (ESTA LINHA FOI COMENTADA)
+    # run_backtest()
+    
+    # 2. RODAR EXECUTOR EM TEMPO REAL (ESTE BLOCO FOI DESCOMENTADO)
+    executor = TradeExecutor(
+        symbol=CONFIG.get('GLOBAL.SYMBOL'), # Corrigi para usar 'GLOBAL'
+        timeframe=CONFIG.get('GLOBAL.TIMEFRAME') # Corrigi para usar 'GLOBAL'
+    )
+    executor.start_loop()
+    
+    logger.info("Programa finalizado com sucesso.")

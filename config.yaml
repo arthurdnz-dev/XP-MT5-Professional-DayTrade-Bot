@@ -18,7 +18,8 @@ RISK:
   # Número máximo de contratos que o robô pode operar (Limite de segurança)
   MAX_VOLUME_LIMIT: 5
 
-  STRATEGY:
-  EMA_SHORT_PERIOD: 2    # Corrigido
-  EMA_LONG_PERIOD: 5     # Corrigido
-  SL_POINTS: 20          # Corrigido
+STRATEGY:
+  EMA_SHORT_PERIOD: 12 # CONFIRME ESTE VALOR
+  EMA_LONG_PERIOD: 20
+  SL_POINTS: 30        # CONFIRME ESTE VALOR
+  TP_POINTS: 40

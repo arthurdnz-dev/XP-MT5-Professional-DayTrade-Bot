@@ -1,0 +1,13 @@
+2025-12-05 01:13:02,074 | INFO | XP_MT5_BOT | ================================================
+2025-12-05 01:13:02,074 | INFO | XP_MT5_BOT | INICIANDO ROBÔ DE DAY TRADE AUTÔNOMO
+2025-12-05 01:13:02,074 | INFO | XP_MT5_BOT | ================================================
+2025-12-05 01:13:02,075 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado. SL: None pontos, TP: None pontos.
+2025-12-05 01:13:02,075 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: None, EMA Lenta: None.
+2025-12-05 01:13:02,075 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 01:13:02,076 | INFO | XP_MT5_BOT | Executor inicializado para None em None.
+2025-12-05 01:13:02,077 | INFO | XP_MT5_BOT | Tentando conectar ao servidor de API da Corretora...
+2025-12-05 01:13:03,088 | INFO | XP_MT5_BOT | Conexão com a API estabelecida com sucesso.
+2025-12-05 01:13:03,089 | INFO | XP_MT5_BOT | Iniciando loop de execução autônomo. Pressione CTRL+C para parar.
+2025-12-05 01:13:03,096 | ERROR | XP_MT5_BOT | Erro Crítico no loop: '<' not supported between instances of 'int' and 'NoneType'
+2025-12-05 01:13:03,097 | INFO | XP_MT5_BOT | Robô encerrado.
+2025-12-05 01:13:03,097 | INFO | XP_MT5_BOT | Programa finalizado com sucesso.

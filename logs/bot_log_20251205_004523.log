@@ -1,0 +1,1028 @@
+2025-12-05 00:45:24,053 | INFO | XP_MT5_BOT | ================================================
+2025-12-05 00:45:24,054 | INFO | XP_MT5_BOT | INICIANDO ROBÔ DE DAY TRADE AUTÔNOMO
+2025-12-05 00:45:24,054 | INFO | XP_MT5_BOT | ================================================
+2025-12-05 00:45:24,055 | INFO | XP_MT5_BOT | --- INICIANDO BACKTEST E OTIMIZAÇÃO DE PARÂMETROS ---
+2025-12-05 00:45:24,253 | INFO | XP_MT5_BOT | Rodando teste 1/81: EMA 9/20, SL/TP 15/30
+2025-12-05 00:45:24,254 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 20.
+2025-12-05 00:45:24,260 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,260 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/20. SL/TP: 15/30.
+2025-12-05 00:45:24,266 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,272 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:24,276 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,280 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1100) < Média + 0% (1213)
+2025-12-05 00:45:24,283 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,286 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,287 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:24,292 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,296 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,300 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1064) < Média + 0% (1216)
+2025-12-05 00:45:24,302 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,303 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1028) < Média + 0% (1232)
+2025-12-05 00:45:24,308 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1194) < Média + 0% (1240)
+2025-12-05 00:45:24,311 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,317 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,318 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,324 | INFO | XP_MT5_BOT | Rodando teste 2/81: EMA 9/20, SL/TP 15/40
+2025-12-05 00:45:24,325 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 20.
+2025-12-05 00:45:24,325 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,326 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/20. SL/TP: 15/40.
+2025-12-05 00:45:24,330 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,336 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:24,341 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,344 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1100) < Média + 0% (1213)
+2025-12-05 00:45:24,347 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,349 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,350 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:24,355 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,360 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,363 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1194) < Média + 0% (1240)
+2025-12-05 00:45:24,368 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,371 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,372 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,376 | INFO | XP_MT5_BOT | Rodando teste 3/81: EMA 9/20, SL/TP 15/60
+2025-12-05 00:45:24,377 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 20.
+2025-12-05 00:45:24,378 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,378 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/20. SL/TP: 15/60.
+2025-12-05 00:45:24,382 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,387 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:24,392 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,396 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1100) < Média + 0% (1213)
+2025-12-05 00:45:24,400 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,402 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,404 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:24,409 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,415 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,416 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,421 | INFO | XP_MT5_BOT | Rodando teste 4/81: EMA 9/20, SL/TP 20/30
+2025-12-05 00:45:24,422 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 20.
+2025-12-05 00:45:24,422 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,423 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/20. SL/TP: 20/30.
+2025-12-05 00:45:24,427 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,432 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:24,437 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,441 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1100) < Média + 0% (1213)
+2025-12-05 00:45:24,444 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,448 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,453 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,457 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1064) < Média + 0% (1216)
+2025-12-05 00:45:24,460 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,463 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1194) < Média + 0% (1240)
+2025-12-05 00:45:24,467 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,476 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,503 | INFO | XP_MT5_BOT | Rodando teste 5/81: EMA 9/20, SL/TP 20/40
+2025-12-05 00:45:24,504 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 20.
+2025-12-05 00:45:24,504 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,505 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/20. SL/TP: 20/40.
+2025-12-05 00:45:24,510 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,518 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:24,523 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,526 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1100) < Média + 0% (1213)
+2025-12-05 00:45:24,534 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,538 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,543 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,546 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1194) < Média + 0% (1240)
+2025-12-05 00:45:24,550 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,553 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,561 | INFO | XP_MT5_BOT | Rodando teste 6/81: EMA 9/20, SL/TP 20/60
+2025-12-05 00:45:24,563 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 20.
+2025-12-05 00:45:24,563 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,564 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/20. SL/TP: 20/60.
+2025-12-05 00:45:24,568 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,573 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:24,578 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,582 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1100) < Média + 0% (1213)
+2025-12-05 00:45:24,585 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,590 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,597 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,605 | INFO | XP_MT5_BOT | Rodando teste 7/81: EMA 9/20, SL/TP 30/30
+2025-12-05 00:45:24,606 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 20.
+2025-12-05 00:45:24,606 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,606 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/20. SL/TP: 30/30.
+2025-12-05 00:45:24,611 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,616 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:24,621 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,624 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1100) < Média + 0% (1213)
+2025-12-05 00:45:24,627 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,632 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,637 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,641 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1064) < Média + 0% (1216)
+2025-12-05 00:45:24,644 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,647 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1194) < Média + 0% (1240)
+2025-12-05 00:45:24,652 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,660 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,668 | INFO | XP_MT5_BOT | Rodando teste 8/81: EMA 9/20, SL/TP 30/40
+2025-12-05 00:45:24,668 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 20.
+2025-12-05 00:45:24,669 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,669 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/20. SL/TP: 30/40.
+2025-12-05 00:45:24,674 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,678 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:24,683 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,687 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1100) < Média + 0% (1213)
+2025-12-05 00:45:24,690 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,694 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,699 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,707 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,716 | INFO | XP_MT5_BOT | Rodando teste 9/81: EMA 9/20, SL/TP 30/60
+2025-12-05 00:45:24,716 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 20.
+2025-12-05 00:45:24,717 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,717 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/20. SL/TP: 30/60.
+2025-12-05 00:45:24,722 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,727 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:24,732 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,736 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1100) < Média + 0% (1213)
+2025-12-05 00:45:24,739 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,743 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,749 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,758 | INFO | XP_MT5_BOT | Rodando teste 10/81: EMA 9/26, SL/TP 15/30
+2025-12-05 00:45:24,758 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 26.
+2025-12-05 00:45:24,759 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,759 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/26. SL/TP: 15/30.
+2025-12-05 00:45:24,764 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,770 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,773 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,776 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:24,781 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,787 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,791 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,808 | INFO | XP_MT5_BOT | Rodando teste 11/81: EMA 9/26, SL/TP 15/40
+2025-12-05 00:45:24,810 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 26.
+2025-12-05 00:45:24,810 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,810 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/26. SL/TP: 15/40.
+2025-12-05 00:45:24,815 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,821 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,823 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,826 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:24,831 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,837 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,840 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,857 | INFO | XP_MT5_BOT | Rodando teste 12/81: EMA 9/26, SL/TP 15/60
+2025-12-05 00:45:24,858 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 26.
+2025-12-05 00:45:24,859 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,859 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/26. SL/TP: 15/60.
+2025-12-05 00:45:24,863 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,869 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,872 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:24,875 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,876 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,877 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:24,882 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,899 | INFO | XP_MT5_BOT | Rodando teste 13/81: EMA 9/26, SL/TP 20/30
+2025-12-05 00:45:24,900 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 26.
+2025-12-05 00:45:24,900 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,900 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/26. SL/TP: 20/30.
+2025-12-05 00:45:24,905 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,910 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,913 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,916 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:24,921 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,927 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,931 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,947 | INFO | XP_MT5_BOT | Rodando teste 14/81: EMA 9/26, SL/TP 20/40
+2025-12-05 00:45:24,948 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 26.
+2025-12-05 00:45:24,948 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,949 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/26. SL/TP: 20/40.
+2025-12-05 00:45:24,953 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:24,959 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,963 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,966 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:24,972 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,977 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,980 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:24,998 | INFO | XP_MT5_BOT | Rodando teste 15/81: EMA 9/26, SL/TP 20/60
+2025-12-05 00:45:24,998 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 26.
+2025-12-05 00:45:24,999 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:24,999 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/26. SL/TP: 20/60.
+2025-12-05 00:45:25,003 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:25,009 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,011 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:25,014 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,018 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,021 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:25,026 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,042 | INFO | XP_MT5_BOT | Rodando teste 16/81: EMA 9/26, SL/TP 30/30
+2025-12-05 00:45:25,044 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 26.
+2025-12-05 00:45:25,044 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,044 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/26. SL/TP: 30/30.
+2025-12-05 00:45:25,049 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:25,055 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,058 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,062 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,068 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,072 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,088 | INFO | XP_MT5_BOT | Rodando teste 17/81: EMA 9/26, SL/TP 30/40
+2025-12-05 00:45:25,089 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 26.
+2025-12-05 00:45:25,090 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,090 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/26. SL/TP: 30/40.
+2025-12-05 00:45:25,094 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:25,099 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,103 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,107 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,112 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,116 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,131 | INFO | XP_MT5_BOT | Rodando teste 18/81: EMA 9/26, SL/TP 30/60
+2025-12-05 00:45:25,132 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 26.
+2025-12-05 00:45:25,133 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,133 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/26. SL/TP: 30/60.
+2025-12-05 00:45:25,138 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:25,143 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,148 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,164 | INFO | XP_MT5_BOT | Rodando teste 19/81: EMA 9/30, SL/TP 15/30
+2025-12-05 00:45:25,165 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 30.
+2025-12-05 00:45:25,166 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,166 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/30. SL/TP: 15/30.
+2025-12-05 00:45:25,171 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,175 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,176 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,179 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,190 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:25,196 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Tendência: Preço (9978.15) < EMA 50 (9979.76); ❌ Volume: Atual (1030) < Média + 0% (1226)
+2025-12-05 00:45:25,208 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,213 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,215 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:25,232 | INFO | XP_MT5_BOT | Rodando teste 20/81: EMA 9/30, SL/TP 15/40
+2025-12-05 00:45:25,233 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 30.
+2025-12-05 00:45:25,233 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,234 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/30. SL/TP: 15/40.
+2025-12-05 00:45:25,238 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,242 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,243 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,246 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:25,248 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,249 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,250 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:25,255 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Tendência: Preço (9978.15) < EMA 50 (9979.76); ❌ Volume: Atual (1030) < Média + 0% (1226)
+2025-12-05 00:45:25,266 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,271 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,272 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:25,288 | INFO | XP_MT5_BOT | Rodando teste 21/81: EMA 9/30, SL/TP 15/60
+2025-12-05 00:45:25,289 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 30.
+2025-12-05 00:45:25,289 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,290 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/30. SL/TP: 15/60.
+2025-12-05 00:45:25,294 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,298 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,299 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,302 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:25,305 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,305 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,306 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:25,312 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Tendência: Preço (9978.15) < EMA 50 (9979.76); ❌ Volume: Atual (1030) < Média + 0% (1226)
+2025-12-05 00:45:25,323 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,327 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,328 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:25,345 | INFO | XP_MT5_BOT | Rodando teste 22/81: EMA 9/30, SL/TP 20/30
+2025-12-05 00:45:25,346 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 30.
+2025-12-05 00:45:25,346 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,347 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/30. SL/TP: 20/30.
+2025-12-05 00:45:25,352 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,356 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,358 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:25,363 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Tendência: Preço (9978.15) < EMA 50 (9979.76); ❌ Volume: Atual (1030) < Média + 0% (1226)
+2025-12-05 00:45:25,374 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,378 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,395 | INFO | XP_MT5_BOT | Rodando teste 23/81: EMA 9/30, SL/TP 20/40
+2025-12-05 00:45:25,396 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 30.
+2025-12-05 00:45:25,396 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,397 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/30. SL/TP: 20/40.
+2025-12-05 00:45:25,401 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,405 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,408 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:25,413 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Tendência: Preço (9978.15) < EMA 50 (9979.76); ❌ Volume: Atual (1030) < Média + 0% (1226)
+2025-12-05 00:45:25,424 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,428 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,445 | INFO | XP_MT5_BOT | Rodando teste 24/81: EMA 9/30, SL/TP 20/60
+2025-12-05 00:45:25,446 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 30.
+2025-12-05 00:45:25,446 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,446 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/30. SL/TP: 20/60.
+2025-12-05 00:45:25,451 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,455 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,458 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:25,463 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Tendência: Preço (9978.15) < EMA 50 (9979.76); ❌ Volume: Atual (1030) < Média + 0% (1226)
+2025-12-05 00:45:25,474 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,478 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,495 | INFO | XP_MT5_BOT | Rodando teste 25/81: EMA 9/30, SL/TP 30/30
+2025-12-05 00:45:25,495 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 30.
+2025-12-05 00:45:25,496 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,496 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/30. SL/TP: 30/30.
+2025-12-05 00:45:25,501 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,505 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,509 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Tendência: Preço (9978.15) < EMA 50 (9979.76); ❌ Volume: Atual (1030) < Média + 0% (1226)
+2025-12-05 00:45:25,520 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,525 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,541 | INFO | XP_MT5_BOT | Rodando teste 26/81: EMA 9/30, SL/TP 30/40
+2025-12-05 00:45:25,542 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 30.
+2025-12-05 00:45:25,543 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,543 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/30. SL/TP: 30/40.
+2025-12-05 00:45:25,548 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,552 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,556 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Tendência: Preço (9978.15) < EMA 50 (9979.76); ❌ Volume: Atual (1030) < Média + 0% (1226)
+2025-12-05 00:45:25,567 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,572 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,589 | INFO | XP_MT5_BOT | Rodando teste 27/81: EMA 9/30, SL/TP 30/60
+2025-12-05 00:45:25,591 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 9, EMA Lenta: 30.
+2025-12-05 00:45:25,591 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,592 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 9/30. SL/TP: 30/60.
+2025-12-05 00:45:25,596 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,600 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,606 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,611 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,627 | INFO | XP_MT5_BOT | Rodando teste 28/81: EMA 10/20, SL/TP 15/30
+2025-12-05 00:45:25,628 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 20.
+2025-12-05 00:45:25,628 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,628 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/20. SL/TP: 15/30.
+2025-12-05 00:45:25,633 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:25,638 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:25,642 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1223) < Média + 0% (1253)
+2025-12-05 00:45:25,643 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,647 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1100) < Média + 0% (1213)
+2025-12-05 00:45:25,650 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:25,653 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,654 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,654 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:25,660 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,665 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,668 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1064) < Média + 0% (1216)
+2025-12-05 00:45:25,670 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,671 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1028) < Média + 0% (1232)
+2025-12-05 00:45:25,676 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1194) < Média + 0% (1240)
+2025-12-05 00:45:25,680 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:25,688 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,689 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,694 | INFO | XP_MT5_BOT | Rodando teste 29/81: EMA 10/20, SL/TP 15/40
+2025-12-05 00:45:25,694 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 20.
+2025-12-05 00:45:25,694 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,696 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/20. SL/TP: 15/40.
+2025-12-05 00:45:25,700 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:25,705 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:25,710 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1223) < Média + 0% (1253)
+2025-12-05 00:45:25,713 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,715 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:25,717 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,719 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,719 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:25,724 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,729 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,731 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1194) < Média + 0% (1240)
+2025-12-05 00:45:25,735 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:25,743 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,743 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,748 | INFO | XP_MT5_BOT | Rodando teste 30/81: EMA 10/20, SL/TP 15/60
+2025-12-05 00:45:25,748 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 20.
+2025-12-05 00:45:25,749 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,749 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/20. SL/TP: 15/60.
+2025-12-05 00:45:25,754 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:25,759 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:25,764 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1223) < Média + 0% (1253)
+2025-12-05 00:45:25,766 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,769 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:25,771 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,772 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,772 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:25,778 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,783 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,784 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,789 | INFO | XP_MT5_BOT | Rodando teste 31/81: EMA 10/20, SL/TP 20/30
+2025-12-05 00:45:25,789 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 20.
+2025-12-05 00:45:25,789 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,789 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/20. SL/TP: 20/30.
+2025-12-05 00:45:25,795 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:25,800 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:25,805 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1223) < Média + 0% (1253)
+2025-12-05 00:45:25,808 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,810 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1100) < Média + 0% (1213)
+2025-12-05 00:45:25,814 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:25,817 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,820 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,823 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:25,828 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,833 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,837 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1064) < Média + 0% (1216)
+2025-12-05 00:45:25,840 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,843 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1194) < Média + 0% (1240)
+2025-12-05 00:45:25,846 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:25,854 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,862 | INFO | XP_MT5_BOT | Rodando teste 32/81: EMA 10/20, SL/TP 20/40
+2025-12-05 00:45:25,862 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 20.
+2025-12-05 00:45:25,863 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,863 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/20. SL/TP: 20/40.
+2025-12-05 00:45:25,867 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:25,872 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:25,877 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1223) < Média + 0% (1253)
+2025-12-05 00:45:25,880 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,882 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:25,884 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,887 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,891 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:25,895 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,900 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,904 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1194) < Média + 0% (1240)
+2025-12-05 00:45:25,920 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:25,937 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,946 | INFO | XP_MT5_BOT | Rodando teste 33/81: EMA 10/20, SL/TP 20/60
+2025-12-05 00:45:25,946 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 20.
+2025-12-05 00:45:25,947 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:25,947 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/20. SL/TP: 20/60.
+2025-12-05 00:45:25,954 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:25,962 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:25,972 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1223) < Média + 0% (1253)
+2025-12-05 00:45:25,976 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,981 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:25,984 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,987 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:25,991 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:25,997 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,004 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,012 | INFO | XP_MT5_BOT | Rodando teste 34/81: EMA 10/20, SL/TP 30/30
+2025-12-05 00:45:26,013 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 20.
+2025-12-05 00:45:26,014 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,014 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/20. SL/TP: 30/30.
+2025-12-05 00:45:26,019 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:26,024 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:26,029 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1223) < Média + 0% (1253)
+2025-12-05 00:45:26,031 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,034 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1100) < Média + 0% (1213)
+2025-12-05 00:45:26,037 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:26,039 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,043 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,047 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,052 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,056 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1064) < Média + 0% (1216)
+2025-12-05 00:45:26,059 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,062 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1194) < Média + 0% (1240)
+2025-12-05 00:45:26,065 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:26,073 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,081 | INFO | XP_MT5_BOT | Rodando teste 35/81: EMA 10/20, SL/TP 30/40
+2025-12-05 00:45:26,081 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 20.
+2025-12-05 00:45:26,081 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,082 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/20. SL/TP: 30/40.
+2025-12-05 00:45:26,086 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:26,091 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:26,095 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1223) < Média + 0% (1253)
+2025-12-05 00:45:26,101 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,103 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:26,106 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,109 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,113 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,118 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,124 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,132 | INFO | XP_MT5_BOT | Rodando teste 36/81: EMA 10/20, SL/TP 30/60
+2025-12-05 00:45:26,132 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 20.
+2025-12-05 00:45:26,133 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,133 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/20. SL/TP: 30/60.
+2025-12-05 00:45:26,138 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:26,143 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1026) < Média + 0% (1189)
+2025-12-05 00:45:26,148 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1223) < Média + 0% (1253)
+2025-12-05 00:45:26,151 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,154 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:26,156 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,158 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,163 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,170 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,178 | INFO | XP_MT5_BOT | Rodando teste 37/81: EMA 10/26, SL/TP 15/30
+2025-12-05 00:45:26,179 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 26.
+2025-12-05 00:45:26,179 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,180 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/26. SL/TP: 15/30.
+2025-12-05 00:45:26,185 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,189 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,190 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,193 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,196 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,201 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,207 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,212 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,229 | INFO | XP_MT5_BOT | Rodando teste 38/81: EMA 10/26, SL/TP 15/40
+2025-12-05 00:45:26,229 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 26.
+2025-12-05 00:45:26,230 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,230 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/26. SL/TP: 15/40.
+2025-12-05 00:45:26,235 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,239 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,240 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,243 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:26,245 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,246 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,247 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,252 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,258 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,262 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,288 | INFO | XP_MT5_BOT | Rodando teste 39/81: EMA 10/26, SL/TP 15/60
+2025-12-05 00:45:26,288 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 26.
+2025-12-05 00:45:26,289 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,289 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/26. SL/TP: 15/60.
+2025-12-05 00:45:26,293 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,296 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,298 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,301 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:26,303 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,305 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,307 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,312 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,329 | INFO | XP_MT5_BOT | Rodando teste 40/81: EMA 10/26, SL/TP 20/30
+2025-12-05 00:45:26,330 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 26.
+2025-12-05 00:45:26,330 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,331 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/26. SL/TP: 20/30.
+2025-12-05 00:45:26,336 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,340 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,343 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,348 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,354 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,358 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,375 | INFO | XP_MT5_BOT | Rodando teste 41/81: EMA 10/26, SL/TP 20/40
+2025-12-05 00:45:26,376 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 26.
+2025-12-05 00:45:26,376 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,377 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/26. SL/TP: 20/40.
+2025-12-05 00:45:26,381 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,385 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,388 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,393 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,398 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,402 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,419 | INFO | XP_MT5_BOT | Rodando teste 42/81: EMA 10/26, SL/TP 20/60
+2025-12-05 00:45:26,420 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 26.
+2025-12-05 00:45:26,420 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,421 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/26. SL/TP: 20/60.
+2025-12-05 00:45:26,425 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,429 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,432 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,438 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,454 | INFO | XP_MT5_BOT | Rodando teste 43/81: EMA 10/26, SL/TP 30/30
+2025-12-05 00:45:26,455 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 26.
+2025-12-05 00:45:26,455 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,455 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/26. SL/TP: 30/30.
+2025-12-05 00:45:26,460 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,463 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,467 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,474 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,477 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,493 | INFO | XP_MT5_BOT | Rodando teste 44/81: EMA 10/26, SL/TP 30/40
+2025-12-05 00:45:26,494 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 26.
+2025-12-05 00:45:26,494 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,494 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/26. SL/TP: 30/40.
+2025-12-05 00:45:26,498 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,503 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,506 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,511 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,515 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,530 | INFO | XP_MT5_BOT | Rodando teste 45/81: EMA 10/26, SL/TP 30/60
+2025-12-05 00:45:26,531 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 26.
+2025-12-05 00:45:26,531 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,531 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/26. SL/TP: 30/60.
+2025-12-05 00:45:26,536 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,539 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,545 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,549 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,566 | INFO | XP_MT5_BOT | Rodando teste 46/81: EMA 10/30, SL/TP 15/30
+2025-12-05 00:45:26,568 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 30.
+2025-12-05 00:45:26,568 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,568 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/30. SL/TP: 15/30.
+2025-12-05 00:45:26,573 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,576 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,577 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,580 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,583 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,588 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:26,598 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,603 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,604 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:26,621 | INFO | XP_MT5_BOT | Rodando teste 47/81: EMA 10/30, SL/TP 15/40
+2025-12-05 00:45:26,622 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 30.
+2025-12-05 00:45:26,622 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,623 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/30. SL/TP: 15/40.
+2025-12-05 00:45:26,627 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,631 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,632 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,636 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:26,638 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,639 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,640 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,645 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:26,656 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,661 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,662 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:26,679 | INFO | XP_MT5_BOT | Rodando teste 48/81: EMA 10/30, SL/TP 15/60
+2025-12-05 00:45:26,680 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 30.
+2025-12-05 00:45:26,680 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,680 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/30. SL/TP: 15/60.
+2025-12-05 00:45:26,685 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,688 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,690 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,693 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:26,695 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,696 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,697 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,703 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:26,714 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,718 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,719 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:26,738 | INFO | XP_MT5_BOT | Rodando teste 49/81: EMA 10/30, SL/TP 20/30
+2025-12-05 00:45:26,738 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 30.
+2025-12-05 00:45:26,739 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,739 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/30. SL/TP: 20/30.
+2025-12-05 00:45:26,743 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,747 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,750 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,756 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:26,767 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,772 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,789 | INFO | XP_MT5_BOT | Rodando teste 50/81: EMA 10/30, SL/TP 20/40
+2025-12-05 00:45:26,790 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 30.
+2025-12-05 00:45:26,790 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,790 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/30. SL/TP: 20/40.
+2025-12-05 00:45:26,795 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,799 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,801 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,807 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:26,817 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,822 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,838 | INFO | XP_MT5_BOT | Rodando teste 51/81: EMA 10/30, SL/TP 20/60
+2025-12-05 00:45:26,839 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 30.
+2025-12-05 00:45:26,840 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,840 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/30. SL/TP: 20/60.
+2025-12-05 00:45:26,844 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,848 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,851 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:26,857 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:26,867 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,872 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,889 | INFO | XP_MT5_BOT | Rodando teste 52/81: EMA 10/30, SL/TP 30/30
+2025-12-05 00:45:26,890 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 30.
+2025-12-05 00:45:26,890 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,891 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/30. SL/TP: 30/30.
+2025-12-05 00:45:26,895 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,899 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,904 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:26,915 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,919 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,936 | INFO | XP_MT5_BOT | Rodando teste 53/81: EMA 10/30, SL/TP 30/40
+2025-12-05 00:45:26,936 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 30.
+2025-12-05 00:45:26,937 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,937 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/30. SL/TP: 30/40.
+2025-12-05 00:45:26,942 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,946 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,950 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:26,961 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,965 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,982 | INFO | XP_MT5_BOT | Rodando teste 54/81: EMA 10/30, SL/TP 30/60
+2025-12-05 00:45:26,983 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 10, EMA Lenta: 30.
+2025-12-05 00:45:26,984 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:26,985 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 10/30. SL/TP: 30/60.
+2025-12-05 00:45:26,989 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,994 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:26,999 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,005 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,021 | INFO | XP_MT5_BOT | Rodando teste 55/81: EMA 12/20, SL/TP 15/30
+2025-12-05 00:45:27,022 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 20.
+2025-12-05 00:45:27,022 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,022 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/20. SL/TP: 15/30.
+2025-12-05 00:45:27,027 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:27,032 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,036 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,039 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,044 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,050 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,054 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1064) < Média + 0% (1216)
+2025-12-05 00:45:27,057 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,058 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1028) < Média + 0% (1232)
+2025-12-05 00:45:27,062 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,069 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Tendência: Preço (10047.50) > EMA 50 (10041.50); ❌ Volume: Atual (1172) < Média + 0% (1267)
+2025-12-05 00:45:27,071 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,075 | INFO | XP_MT5_BOT | Rodando teste 56/81: EMA 12/20, SL/TP 15/40
+2025-12-05 00:45:27,076 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 20.
+2025-12-05 00:45:27,077 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,077 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/20. SL/TP: 15/40.
+2025-12-05 00:45:27,081 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:27,087 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,090 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,093 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,098 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,103 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,107 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,115 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Tendência: Preço (10047.50) > EMA 50 (10041.50); ❌ Volume: Atual (1172) < Média + 0% (1267)
+2025-12-05 00:45:27,116 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,120 | INFO | XP_MT5_BOT | Rodando teste 57/81: EMA 12/20, SL/TP 15/60
+2025-12-05 00:45:27,122 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 20.
+2025-12-05 00:45:27,122 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,123 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/20. SL/TP: 15/60.
+2025-12-05 00:45:27,127 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:27,132 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,135 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:27,138 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,139 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,140 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,145 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,152 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Tendência: Preço (10047.50) > EMA 50 (10041.50); ❌ Volume: Atual (1172) < Média + 0% (1267)
+2025-12-05 00:45:27,153 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,157 | INFO | XP_MT5_BOT | Rodando teste 58/81: EMA 12/20, SL/TP 20/30
+2025-12-05 00:45:27,158 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 20.
+2025-12-05 00:45:27,158 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,158 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/20. SL/TP: 20/30.
+2025-12-05 00:45:27,162 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:27,168 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,171 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,174 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,179 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,184 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,187 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1064) < Média + 0% (1216)
+2025-12-05 00:45:27,190 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,193 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,200 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Tendência: Preço (10047.50) > EMA 50 (10041.50); ❌ Volume: Atual (1172) < Média + 0% (1267)
+2025-12-05 00:45:27,201 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,206 | INFO | XP_MT5_BOT | Rodando teste 59/81: EMA 12/20, SL/TP 20/40
+2025-12-05 00:45:27,207 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 20.
+2025-12-05 00:45:27,207 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,208 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/20. SL/TP: 20/40.
+2025-12-05 00:45:27,212 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:27,217 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,220 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,223 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,228 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,233 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,237 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,245 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Tendência: Preço (10047.50) > EMA 50 (10041.50); ❌ Volume: Atual (1172) < Média + 0% (1267)
+2025-12-05 00:45:27,246 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,249 | INFO | XP_MT5_BOT | Rodando teste 60/81: EMA 12/20, SL/TP 20/60
+2025-12-05 00:45:27,250 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 20.
+2025-12-05 00:45:27,250 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,251 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/20. SL/TP: 20/60.
+2025-12-05 00:45:27,255 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:27,260 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,263 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1126) < Média + 0% (1235)
+2025-12-05 00:45:27,266 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,270 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,272 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,277 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,284 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Tendência: Preço (10047.50) > EMA 50 (10041.50); ❌ Volume: Atual (1172) < Média + 0% (1267)
+2025-12-05 00:45:27,286 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,290 | INFO | XP_MT5_BOT | Rodando teste 61/81: EMA 12/20, SL/TP 30/30
+2025-12-05 00:45:27,291 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 20.
+2025-12-05 00:45:27,291 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,291 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/20. SL/TP: 30/30.
+2025-12-05 00:45:27,295 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:27,301 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,305 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,311 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,317 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,321 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1064) < Média + 0% (1216)
+2025-12-05 00:45:27,331 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,335 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,342 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Tendência: Preço (10047.50) > EMA 50 (10041.50); ❌ Volume: Atual (1172) < Média + 0% (1267)
+2025-12-05 00:45:27,343 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,348 | INFO | XP_MT5_BOT | Rodando teste 62/81: EMA 12/20, SL/TP 30/40
+2025-12-05 00:45:27,348 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 20.
+2025-12-05 00:45:27,348 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,349 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/20. SL/TP: 30/40.
+2025-12-05 00:45:27,354 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:27,360 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,363 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,366 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,374 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,410 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Tendência: Preço (10047.50) > EMA 50 (10041.50); ❌ Volume: Atual (1172) < Média + 0% (1267)
+2025-12-05 00:45:27,412 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,417 | INFO | XP_MT5_BOT | Rodando teste 63/81: EMA 12/20, SL/TP 30/60
+2025-12-05 00:45:27,418 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 20.
+2025-12-05 00:45:27,419 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,419 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/20. SL/TP: 30/60.
+2025-12-05 00:45:27,431 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1236) < Média + 0% (1237)
+2025-12-05 00:45:27,436 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,441 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,448 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Tendência: Preço (10047.50) > EMA 50 (10041.50); ❌ Volume: Atual (1172) < Média + 0% (1267)
+2025-12-05 00:45:27,449 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,453 | INFO | XP_MT5_BOT | Rodando teste 64/81: EMA 12/26, SL/TP 15/30
+2025-12-05 00:45:27,454 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 26.
+2025-12-05 00:45:27,454 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,455 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/26. SL/TP: 15/30.
+2025-12-05 00:45:27,460 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,463 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,464 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,467 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:27,470 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:27,473 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,473 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,474 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,480 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:27,491 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,495 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,497 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:27,513 | INFO | XP_MT5_BOT | Rodando teste 65/81: EMA 12/26, SL/TP 15/40
+2025-12-05 00:45:27,514 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 26.
+2025-12-05 00:45:27,514 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,515 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/26. SL/TP: 15/40.
+2025-12-05 00:45:27,519 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,523 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,525 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,528 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:27,530 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,530 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,531 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,537 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:27,548 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,553 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,554 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:27,571 | INFO | XP_MT5_BOT | Rodando teste 66/81: EMA 12/26, SL/TP 15/60
+2025-12-05 00:45:27,572 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 26.
+2025-12-05 00:45:27,573 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,573 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/26. SL/TP: 15/60.
+2025-12-05 00:45:27,577 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,581 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,582 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,585 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:27,587 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,588 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,589 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,594 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:27,604 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,609 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,610 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:27,627 | INFO | XP_MT5_BOT | Rodando teste 67/81: EMA 12/26, SL/TP 20/30
+2025-12-05 00:45:27,628 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 26.
+2025-12-05 00:45:27,628 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,628 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/26. SL/TP: 20/30.
+2025-12-05 00:45:27,633 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,637 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:27,641 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:27,642 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,646 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,648 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,654 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:27,665 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,669 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,685 | INFO | XP_MT5_BOT | Rodando teste 68/81: EMA 12/26, SL/TP 20/40
+2025-12-05 00:45:27,686 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 26.
+2025-12-05 00:45:27,686 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,687 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/26. SL/TP: 20/40.
+2025-12-05 00:45:27,691 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,696 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:27,699 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:27,701 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,705 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,707 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,712 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:27,723 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,727 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,743 | INFO | XP_MT5_BOT | Rodando teste 69/81: EMA 12/26, SL/TP 20/60
+2025-12-05 00:45:27,743 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 26.
+2025-12-05 00:45:27,743 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,744 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/26. SL/TP: 20/60.
+2025-12-05 00:45:27,749 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,753 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:27,756 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:27,758 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,762 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,764 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,770 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:27,781 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,785 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,803 | INFO | XP_MT5_BOT | Rodando teste 70/81: EMA 12/26, SL/TP 30/30
+2025-12-05 00:45:27,804 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 26.
+2025-12-05 00:45:27,804 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,805 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/26. SL/TP: 30/30.
+2025-12-05 00:45:27,809 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,813 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:27,816 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:27,819 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,821 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,827 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:27,837 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,841 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,857 | INFO | XP_MT5_BOT | Rodando teste 71/81: EMA 12/26, SL/TP 30/40
+2025-12-05 00:45:27,858 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 26.
+2025-12-05 00:45:27,859 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,859 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/26. SL/TP: 30/40.
+2025-12-05 00:45:27,863 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,867 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:27,870 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:27,872 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,875 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,880 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:27,891 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,896 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,911 | INFO | XP_MT5_BOT | Rodando teste 72/81: EMA 12/26, SL/TP 30/60
+2025-12-05 00:45:27,912 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 26.
+2025-12-05 00:45:27,913 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,913 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/26. SL/TP: 30/60.
+2025-12-05 00:45:27,917 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,921 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:27,924 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:27,926 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,928 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1004) < Média + 0% (1217)
+2025-12-05 00:45:27,933 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1234) < Média + 0% (1246)
+2025-12-05 00:45:27,944 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,948 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,963 | INFO | XP_MT5_BOT | Rodando teste 73/81: EMA 12/30, SL/TP 15/30
+2025-12-05 00:45:27,964 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 30.
+2025-12-05 00:45:27,964 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:27,965 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/30. SL/TP: 15/30.
+2025-12-05 00:45:27,969 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,973 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,976 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,977 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:27,981 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:27,983 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,984 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,986 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1058) < Média + 0% (1190)
+2025-12-05 00:45:27,991 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:27,997 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,002 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,003 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:28,018 | INFO | XP_MT5_BOT | Rodando teste 74/81: EMA 12/30, SL/TP 15/40
+2025-12-05 00:45:28,019 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 30.
+2025-12-05 00:45:28,020 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:28,020 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/30. SL/TP: 15/40.
+2025-12-05 00:45:28,027 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,030 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,032 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,034 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:28,037 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,038 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,038 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1058) < Média + 0% (1190)
+2025-12-05 00:45:28,043 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,049 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,052 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,054 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1174) < Média + 0% (1212)
+2025-12-05 00:45:28,071 | INFO | XP_MT5_BOT | Rodando teste 75/81: EMA 12/30, SL/TP 15/60
+2025-12-05 00:45:28,072 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 30.
+2025-12-05 00:45:28,072 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:28,074 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/30. SL/TP: 15/60.
+2025-12-05 00:45:28,078 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,082 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,083 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,088 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:28,089 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,091 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,091 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1058) < Média + 0% (1190)
+2025-12-05 00:45:28,097 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,112 | INFO | XP_MT5_BOT | Rodando teste 76/81: EMA 12/30, SL/TP 20/30
+2025-12-05 00:45:28,113 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 30.
+2025-12-05 00:45:28,113 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:28,113 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/30. SL/TP: 20/30.
+2025-12-05 00:45:28,119 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,123 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:28,126 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:28,128 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,134 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1058) < Média + 0% (1190)
+2025-12-05 00:45:28,138 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,144 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,149 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,166 | INFO | XP_MT5_BOT | Rodando teste 77/81: EMA 12/30, SL/TP 20/40
+2025-12-05 00:45:28,166 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 30.
+2025-12-05 00:45:28,168 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:28,168 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/30. SL/TP: 20/40.
+2025-12-05 00:45:28,173 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,176 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:28,180 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:28,182 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,188 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1058) < Média + 0% (1190)
+2025-12-05 00:45:28,194 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,200 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,204 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,222 | INFO | XP_MT5_BOT | Rodando teste 78/81: EMA 12/30, SL/TP 20/60
+2025-12-05 00:45:28,222 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 30.
+2025-12-05 00:45:28,222 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:28,223 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/30. SL/TP: 20/60.
+2025-12-05 00:45:28,228 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,231 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:28,235 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:28,237 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,243 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1058) < Média + 0% (1190)
+2025-12-05 00:45:28,248 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,263 | INFO | XP_MT5_BOT | Rodando teste 79/81: EMA 12/30, SL/TP 30/30
+2025-12-05 00:45:28,264 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 30.
+2025-12-05 00:45:28,264 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:28,264 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/30. SL/TP: 30/30.
+2025-12-05 00:45:28,269 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,273 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:28,275 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:28,276 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,280 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1058) < Média + 0% (1190)
+2025-12-05 00:45:28,285 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,291 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,295 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,311 | INFO | XP_MT5_BOT | Rodando teste 80/81: EMA 12/30, SL/TP 30/40
+2025-12-05 00:45:28,312 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 30.
+2025-12-05 00:45:28,312 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:28,313 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/30. SL/TP: 30/40.
+2025-12-05 00:45:28,316 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,321 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:28,324 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:28,326 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,328 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1058) < Média + 0% (1190)
+2025-12-05 00:45:28,333 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,339 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,343 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,360 | INFO | XP_MT5_BOT | Rodando teste 81/81: EMA 12/30, SL/TP 30/60
+2025-12-05 00:45:28,360 | INFO | XP_MT5_BOT | Estratégia EMA Cross inicializada. EMA Rápida: 12, EMA Lenta: 30.
+2025-12-05 00:45:28,361 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 50. Filtro de Volume: 0% acima da média.
+2025-12-05 00:45:28,361 | INFO | XP_MT5_BOT | Backtester inicializado. Parâmetros: EMA 12/30. SL/TP: 30/60.
+2025-12-05 00:45:28,366 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,369 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1168) < Média + 0% (1226)
+2025-12-05 00:45:28,372 | INFO | XP_MT5_BOT | 👉 Compra rejeitada: ❌ Volume: Atual (1162) < Média + 0% (1218)
+2025-12-05 00:45:28,374 | INFO | XP_MT5_BOT | ✅ Sinal de VENDA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,376 | INFO | XP_MT5_BOT | 👉 Venda rejeitada: ❌ Volume: Atual (1058) < Média + 0% (1190)
+2025-12-05 00:45:28,382 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-05 00:45:28,406 | CRITICAL | XP_MT5_BOT | ================================================
+2025-12-05 00:45:28,406 | CRITICAL | XP_MT5_BOT | 🏆 MELHOR CONFIGURAÇÃO ENCONTRADA NO BACKTEST 🏆
+2025-12-05 00:45:28,407 | CRITICAL | XP_MT5_BOT | EMA: 12/20 | SL/TP: 30/40
+2025-12-05 00:45:28,407 | CRITICAL | XP_MT5_BOT | Lucro Líquido: R$ 136.72
+2025-12-05 00:45:28,407 | CRITICAL | XP_MT5_BOT | Taxa de Acerto (Win Rate): 80.00%
+2025-12-05 00:45:28,407 | CRITICAL | XP_MT5_BOT | Fator de Lucro (Profit Factor): 5.09
+2025-12-05 00:45:28,407 | CRITICAL | XP_MT5_BOT | Total de Trades: 5
+2025-12-05 00:45:28,408 | CRITICAL | XP_MT5_BOT | ================================================
+2025-12-05 00:45:28,408 | INFO | XP_MT5_BOT | Programa finalizado com sucesso.

@@ -1,0 +1,30 @@
+2025-12-04 23:46:51,146 | INFO | XP_MT5_BOT | ================================================
+2025-12-04 23:46:51,146 | INFO | XP_MT5_BOT | INICIANDO ROBÔ DE DAY TRADE AUTÔNOMO
+2025-12-04 23:46:51,146 | INFO | XP_MT5_BOT | ================================================
+2025-12-04 23:46:51,147 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-04 23:46:51,147 | INFO | XP_MT5_BOT | Gerenciador de Risco inicializado.
+2025-12-04 23:46:51,147 | WARNING | XP_MT5_BOT | Volume calculado (12) excede o limite máximo (5). Usando limite.
+2025-12-04 23:46:51,147 | INFO | XP_MT5_BOT | SL: 20 pontos. Risco por contrato: R$ 4.00. Volume calculado: 5 contrato(s).
+2025-12-04 23:46:51,147 | INFO | XP_MT5_BOT | Confirmador de Sinal inicializado. Filtro de Tendência: EMA 200.
+2025-12-04 23:46:51,147 | INFO | XP_MT5_BOT | Executor inicializado para WINJ25 em 60.
+2025-12-04 23:46:51,147 | INFO | XP_MT5_BOT | Tentando conectar ao servidor de API da Corretora...
+2025-12-04 23:46:52,155 | INFO | XP_MT5_BOT | Conexão com a API estabelecida com sucesso.
+2025-12-04 23:46:52,156 | INFO | XP_MT5_BOT | Iniciando loop de execução autônomo. Pressione CTRL+C para parar.
+2025-12-04 23:46:52,168 | INFO | XP_MT5_BOT | Preço Atual: 10054.80 | Sinal Primário: HOLD | Sinal FINAL: HOLD
+2025-12-04 23:47:02,189 | INFO | XP_MT5_BOT | Preço Atual: 10047.47 | Sinal Primário: HOLD | Sinal FINAL: HOLD
+2025-12-04 23:47:12,204 | INFO | XP_MT5_BOT | ✅ Sinal de COMPRA confirmado por TENDÊNCIA e VOLUME!
+2025-12-04 23:47:12,204 | INFO | XP_MT5_BOT | Preço Atual: 10052.76 | Sinal Primário: BUY | Sinal FINAL: BUY
+2025-12-04 23:47:12,205 | INFO | XP_MT5_BOT | ORDEM ENVIADA VIA API: BUY 5x WINJ25. SL: 10032.76, TP: 10092.76
+2025-12-04 23:47:12,206 | INFO | XP_MT5_BOT | Ordem de BUY executada. Posicionamento aguardando confirmação.
+2025-12-04 23:47:12,206 | INFO | XP_MT5_BOT | Posição aberta. Monitorando SL/TP...
+2025-12-04 23:47:22,224 | INFO | XP_MT5_BOT | Preço Atual: 10054.90 | Sinal Primário: BUY | Sinal FINAL: HOLD
+2025-12-04 23:47:22,225 | INFO | XP_MT5_BOT | Posição aberta. Monitorando SL/TP...
+2025-12-04 23:47:32,238 | INFO | XP_MT5_BOT | Preço Atual: 10053.49 | Sinal Primário: HOLD | Sinal FINAL: HOLD
+2025-12-04 23:47:32,238 | INFO | XP_MT5_BOT | Posição aberta. Monitorando SL/TP...
+2025-12-04 23:47:42,252 | INFO | XP_MT5_BOT | Preço Atual: 10047.20 | Sinal Primário: HOLD | Sinal FINAL: HOLD
+2025-12-04 23:47:42,252 | INFO | XP_MT5_BOT | Posição aberta. Monitorando SL/TP...
+2025-12-04 23:47:52,267 | INFO | XP_MT5_BOT | Preço Atual: 10047.37 | Sinal Primário: HOLD | Sinal FINAL: HOLD
+2025-12-04 23:47:52,268 | INFO | XP_MT5_BOT | Posição aberta. Monitorando SL/TP...
+2025-12-04 23:47:57,871 | INFO | XP_MT5_BOT | Loop interrompido pelo usuário (CTRL+C). Encerrando Executor.
+2025-12-04 23:47:57,872 | INFO | XP_MT5_BOT | Robô encerrado.
+2025-12-04 23:47:57,873 | INFO | XP_MT5_BOT | Programa finalizado com sucesso.

@@ -1,59 +1,57 @@
-# Arquivo: core/risk_manager.py
+# Arquivo: core/risk_manager.py - CORREÇÃO FINAL
 
 from utils.config import CONFIG
 from utils.logger import logger
-from typing import Union
-import math
 
 class RiskManager:
     """
-    Gerencia o volume da ordem com base na gestão de risco configurada 
-    (Risco Fixo por Trade).
+    Gerencia o risco, calculando o volume de contratos com base
+    no risco máximo aceito por trade e definindo SL/TP.
     """
-    def __init__(self):
-        # Apenas inicializa o logger e a classe.
-        logger.info("Gerenciador de Risco inicializado.")
+    
+    def __init__(self, sl_points: int, tp_points: int):
+        
+        # 1. Carrega parâmetros de risco do CONFIG
+        # 🟢 CORREÇÃO CRÍTICA: Ler a seção RISK como um dicionário
+        risk_config = CONFIG.get('RISK', {}) 
+        
+        # Usamos .get() no dicionário 'risk_config' com valores de fallback
+        self.max_risk_per_trade = risk_config.get('MAX_RISK_PER_TRADE', 100.0) # Fallback para R$100
+        self.point_value = risk_config.get('POINT_VALUE', 0.20)              # Fallback para R$0.20 (Mini-Índice)
+        self.max_volume_limit = risk_config.get('MAX_VOLUME_LIMIT', 5)       # Fallback para 5 contratos
 
-    def calculate_volume(self, sl_points: int) -> int:
-        """
-        Calcula o volume (número de contratos) com base na distância do Stop Loss (SL) em pontos.
-        """
+        # 2. Armazena SL/TP e garante que sejam INTEIROS
+        try:
+            self.sl_points = int(sl_points)
+            self.tp_points = int(tp_points)
+        except (ValueError, TypeError):
+            logger.error("Falha na leitura dos pontos SL/TP. Usando valores padrão otimizados (30/40).")
+            self.sl_points = 30
+            self.tp_points = 40
         
-        # ⚠️ IMPORTANTE: RECARREGA AS CONFIGURAÇÕES A CADA CHAMADA PARA GARANTIR OS VALORES MAIS RECENTES!
-        self.max_risk = CONFIG.get('RISK.MAX_RISK_PER_TRADE', 50.00)
-        self.point_value = CONFIG.get('RISK.POINT_VALUE', 0.20)
-        self.max_volume_limit = CONFIG.get('RISK.MAX_VOLUME_LIMIT', 5)
-        # ------------------------------------------------------------------
+        # Garante que point_value seja float/int
+        if self.point_value is None or (not isinstance(self.point_value, (int, float))):
+             logger.warning(f"POINT_VALUE inválido ({self.point_value}). Usando 0.20.")
+             self.point_value = 0.20
         
-        if sl_points <= 0:
-            logger.error("A distância do Stop Loss (SL) deve ser maior que zero.")
-            return 0
-
-        # Risco por contrato na operação
-        risk_per_contract = sl_points * self.point_value
+        logger.info(f"Gerenciador de Risco inicializado. SL: {self.sl_points} pontos, TP: {self.tp_points} pontos. R$/ponto: {self.point_value}")
+    
+    def calculate_volume(self) -> int:
+        """Calcula o volume (contratos) baseado no risco aceito."""
         
-        # Volume teórico
-        volume_float = self.max_risk / risk_per_contract
-        
-        # Arredondamento para o inteiro mais próximo (contratos)
-        volume = int(round(volume_float))
-
-        # ------------------------------------------------------------------
-        # TRATAMENTO DE LIMITE E VOLUME ZERO
-        # ------------------------------------------------------------------
-        
-        # 1. Limite Máximo de Contratos
-        if volume > self.max_volume_limit:
-            logger.warning(f"Volume calculado ({volume}) excede o limite máximo ({self.max_volume_limit}). Usando limite.")
-            volume = self.max_volume_limit
-        
-        # 2. Volume Zero
-        # Se o risco por contrato for maior que o risco máximo, o volume calculado é menor que 1.
-        if volume == 0:
-            logger.warning(f"Volume calculado é zero (SL muito grande ou MAX_RISK pequeno). SL: {sl_points} pontos. Abortando cálculo de volume.")
-            return 0
+        if self.sl_points <= 0 or self.point_value <= 0 or self.max_risk_per_trade is None:
+            # Esta verificação é acionada quando algum valor é None/Zero
+            logger.error("Parâmetros de risco inválidos ou incompletos. Usando volume 1.")
+            return 1
             
-        logger.info(f"SL: {sl_points} pontos. Risco por contrato: R$ {risk_per_contract:.2f}. Volume calculado: {volume} contrato(s).")
-        return volume
-
-# ⚠️ A instância global RISK_MANAGER FOI REMOVIDA
+        # Risco por contrato = SL_POINTS * POINT_VALUE
+        risk_per_contract = self.sl_points * self.point_value
+        
+        # Volume calculado = MAX_RISK_PER_TRADE / Risco por Contrato
+        volume = int(self.max_risk_per_trade / risk_per_contract)
+        
+        # Aplica limite máximo
+        if self.max_volume_limit is not None and volume > self.max_volume_limit:
+            volume = self.max_volume_limit
+            
+        return max(1, volume) # Garante que o volume mínimo seja 1

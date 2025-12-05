@@ -1,0 +1,5 @@
+2025-12-05 00:28:27,108 | INFO | XP_MT5_BOT | ================================================
+2025-12-05 00:28:27,108 | INFO | XP_MT5_BOT | INICIANDO ROBÔ DE DAY TRADE AUTÔNOMO
+2025-12-05 00:28:27,109 | INFO | XP_MT5_BOT | ================================================
+2025-12-05 00:28:27,109 | INFO | XP_MT5_BOT | --- INICIANDO BACKTEST E OTIMIZAÇÃO DE PARÂMETROS ---
+2025-12-05 00:28:27,311 | INFO | XP_MT5_BOT | Rodando teste 1/81: EMA 9/20, SL/TP 15/30

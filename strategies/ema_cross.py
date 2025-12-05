@@ -1,68 +1,58 @@
-# Arquivo: strategies/ema_cross.py
+# Arquivo: strategies/ema_cross.py - CORRIGIDO
 
-import pandas as pd
 from utils.config import CONFIG
-from core.risk_manager import RiskManager # ⚠️ Importa a CLASSE, não a instância!
+from utils.logger import logger
+import pandas as pd 
 
-class EMACrossStrategy(object): 
-    """Estratégia de cruzamento de Médias Móveis Exponenciais (EMA)."""
-    
-    def __init__(self):
-        # Cria a instância do RiskManager AQUI
-        self.risk_manager = RiskManager() 
+class EMACrossStrategy:
+    """
+    Estratégia baseada no cruzamento de duas Médias Móveis Exponenciais (EMA).
+    """
+
+    def __init__(self, fast_period: int, slow_period: int):
         
-        self.short_period = CONFIG.get('STRATEGY.EMA_SHORT_PERIOD', 9)
-        self.long_period = CONFIG.get('STRATEGY.EMA_LONG_PERIOD', 21)
-        self.sl_points = CONFIG.get('STRATEGY.SL_POINTS', 20) # Valor CORRETO (20)
-        self.tp_points = CONFIG.get('STRATEGY.TP_POINTS', 40)
+        # Armazena SL/TP e garante que sejam INTEIROS
+        try:
+            self.fast_period = int(fast_period)
+            self.slow_period = int(slow_period)
+        except (ValueError, TypeError):
+            # Fallback seguro caso a leitura do config.yaml falhe
+            logger.error("Falha na leitura dos períodos EMA. Usando valores padrão otimizados (12/20).")
+            self.fast_period = 12
+            self.slow_period = 20
         
-        # Usa a nova instância para calcular o volume
-        self.volume = self.risk_manager.calculate_volume(self.sl_points)
+        # O volume será lido e calculado pelo TradeExecutor e RiskManager
+        self.volume = 1 # Apenas um valor default, será sobrescrito
         
-        if self.volume == 0:
-            print("AVISO CRÍTICO: Volume calculado é zero. O robô não pode operar.")
-        
+        logger.info(f"Estratégia EMA Cross inicializada. EMA Rápida: {self.fast_period}, EMA Lenta: {self.slow_period}.")
+
     def calculate_indicators(self, data: pd.DataFrame) -> pd.DataFrame:
-        """Calcula as EMAs e adiciona ao DataFrame."""
-        if data.empty:
+        """Calcula as EMAs necessárias para a estratégia."""
+        
+        if len(data) < self.slow_period:
             return data
-
-        # Calcular EMA Curta (Short)
-        data[f'EMA_{self.short_period}'] = data['close'].ewm(span=self.short_period, adjust=False).mean()
-        
-        # Calcular EMA Longa (Long)
-        data[f'EMA_{self.long_period}'] = data['close'].ewm(span=self.long_period, adjust=False).mean()
-        
+            
+        data['EMA_FAST'] = data['close'].ewm(span=self.fast_period, adjust=False).mean()
+        data['EMA_SLOW'] = data['close'].ewm(span=self.slow_period, adjust=False).mean()
         return data
 
     def generate_signal(self, data: pd.DataFrame) -> str:
-        """
-        Gera o sinal de negociação (BUY, SELL ou HOLD) com base no cruzamento.
-        Adiciona uma tolerância (epsilon) para evitar erros de ponto flutuante.
-        """
-        if data.empty or len(data) < self.long_period:
+        """Gera o sinal de BUY/SELL/HOLD baseado no cruzamento das EMAs."""
+        
+        if len(data) < 2:
             return "HOLD"
         
-        # Tolerância para evitar erros de ponto flutuante
-        epsilon = 0.001
+        # Condição de Compra: EMA Rápida cruza acima da Lenta
+        buy_signal = (data['EMA_FAST'].iloc[-2] < data['EMA_SLOW'].iloc[-2]) and \
+                     (data['EMA_FAST'].iloc[-1] > data['EMA_SLOW'].iloc[-1])
         
-        # Cria colunas de diferença de EMA
-        data['EMA_DIFF'] = data[f'EMA_{self.short_period}'] - data[f'EMA_{self.long_period}']
+        # Condição de Venda: EMA Rápida cruza abaixo da Lenta
+        sell_signal = (data['EMA_FAST'].iloc[-2] > data['EMA_SLOW'].iloc[-2]) and \
+                      (data['EMA_FAST'].iloc[-1] < data['EMA_SLOW'].iloc[-1])
         
-        # 1. SINAL DE COMPRA (BUY)
-        # EMA_DIFF era <= 0 e agora é > 0 (adicionando epsilon)
-        buy_cross = (data['EMA_DIFF'].iloc[-1] > epsilon) and \
-                    (data['EMA_DIFF'].iloc[-2] <= epsilon)
-                    
-        if buy_cross:
+        if buy_signal:
             return "BUY"
-            
-        # 2. SINAL DE VENDA (SELL)
-        # EMA_DIFF era >= 0 e agora é < 0 (adicionando epsilon)
-        sell_cross = (data['EMA_DIFF'].iloc[-1] < -epsilon) and \
-                     (data['EMA_DIFF'].iloc[-2] >= -epsilon)
-                     
-        if sell_cross:
+        elif sell_signal:
             return "SELL"
-            
-        return "HOLD"
+        else:
+            return "HOLD"
